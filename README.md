@@ -10,7 +10,7 @@ Prerequisite
 * Attach Security Group to EC2 Instance.
 * Install java openJDK 1.8+
 
-# Install Java JDK 1.8+ and other softares (GIT, wget and tree)
+# 1. Install Java JDK 1.8+ and other softares (GIT, wget and tree)
 
 #install Java JDK 1.8+ as a pre-requisit for maven to run.
 
@@ -25,3 +25,15 @@ sudo yum install java-11-openjdk-devel java-1.8.0-openjdk-devel -y
 java -version
 
 git --version
+
+# 2. Download, extract and Install Maven
+
+#Step1) Download the Maven Software
+
+sudo wget https://dlcdn.apache.org/maven/maven-3/3.8.5/binaries/apache-maven-3.8.5-bin.zip
+
+sudo unzip apache-maven-3.8.5-bin.zip
+
+sudo rm -rf apache-maven-3.8.5-bin.zip
+
+sudo mv apache-maven-3.8.5/ maven
