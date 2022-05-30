@@ -1,5 +1,3 @@
-# JOSI-AUTO-LLC
-
 # Apache Maven Installation And Setup In AWS EC2 Redhat Instnace.
 
 Prerequisite
