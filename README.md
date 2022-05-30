@@ -12,7 +12,7 @@ Prerequisite
 
 # Install Java JDK 1.8+ and other softares (GIT, wget and tree)
 
-# install Java JDK 1.8+ as a pre-requisit for maven to run.
+#install Java JDK 1.8+ as a pre-requisit for maven to run.
 
 sudo hostname maven
 cd /opt
