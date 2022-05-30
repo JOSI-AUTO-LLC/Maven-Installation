@@ -1,4 +1,4 @@
-# Apache Maven Installation And Setup In AWS EC2 Redhat Instnace.
+# Apache Maven Installation And Setup In AWS EC2 Redhat Instnace.This is a step by step process. OR run the install_maven.sh script to intall maven together with java,nano,vim,tree and wget.
 
 Prerequisite
 
